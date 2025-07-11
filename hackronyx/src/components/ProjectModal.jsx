@@ -38,7 +38,7 @@ export default function ProjectModal({ projects, darkMode, handleFetchProjects, 
             }}
             className="bg-[#AD49E1] hover:bg-[#de92ff] text-white px-6 py-3 rounded-xl shadow-lg transition-all font-semibold tracking-wide"
           >
-            🔁 Shuffle More Ideas
+             Shuffle More Ideas
           </button>
         </div>
       </div>
