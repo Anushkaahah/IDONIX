@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-50px);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-150px);
+    opacity: 0;
+  }
+}
+
+
+.animate-float {
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* ✅ Glow effect for bulbs */
+.glow-bulb {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 200, 0.8))
+          drop-shadow(0 0 16px rgba(255, 255, 150, 0.6));
+}
